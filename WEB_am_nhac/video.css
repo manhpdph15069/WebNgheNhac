@@ -1,6 +1,5 @@
 div.chia-cot{
     display: flex;
-
 }
 div.video{
     width: 100%;
@@ -20,9 +19,10 @@ video{
     margin-left: 35px;
 }
 h2{
-    color: aqua;
+    color: rgb(199, 174, 174);
     text-align: center;
     font-size: 50px;
+    text-shadow: 0 0 10px red;
 }
 .fb-comments{
     right: 350px;

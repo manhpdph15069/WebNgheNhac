@@ -12,6 +12,7 @@ iframe[name=page]{
     min-height: 400px;
 }
 div.khung{
+    position: relative;
     margin: auto;
     box-shadow: 0 0 10px red;
     width: 1200px;
@@ -23,7 +24,7 @@ header{
     background-size: cover;
 }
 nav.menu{
-    width: 100%;
+    width: 1200px;
     height: 40px;
     background-color: rgb(255, 131, 234);
     font-variant: small-caps;
@@ -51,6 +52,7 @@ footer{
     padding-top: 40px;
 }
 ul.ngang{
+    float: left;
     list-style: none;
     padding: 0px;
     margin: 0px;
@@ -64,9 +66,61 @@ ul.ngang>li{
     text-decoration: none;
     color: rgb(255, 255, 255);
     text-shadow: 0 0 5px rgb(0, 248, 12);
+    transition: 0.3s;
 }
 ul.ngang li a:hover{
     color: red;
+}
+.menu-con{
+    padding: 0px;
+    width: 60px;
+    position: absolute;
+    visibility: hidden;
+    opacity: 0;
+    transition: 0.4s;
+ }
+ .menu-con ul{
+    list-style: none;
+ }
+ .menu-con li a{
+    text-align: center;
+    transition: 0.3s;
+    display: block;
+    margin-left: 1px;
+    text-decoration: none;
+    border: 1px solid red;
+    background-color: rgb(235, 238, 82);
+}
+ .menu ul li:hover .menu-con{
+     visibility: visible;
+     margin-left: 30px;
+     margin-top: 8px;
+     border: 1px solid rgb(30, 144, 219);
+     background-color: rgb(106, 83, 235);
+     width: 200px;
+     padding: 1px;
+     opacity: 1;
+ }
+
+.Dang-ki-nhap{
+    border-radius: 0 50px 0 50px;
+    float: right;
+    background-color: rgb(17, 0, 255);
+    width: 300px;
+    height: 40px;
+}
+.Dang-ki-nhap ul>li {
+    display: inline-block;
+    padding: 5px 10px 9px 10px;
+    margin: 0px 10px 0px 10px;
+}
+.Dang-ki-nhap ul li a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    text-shadow: 0 0 5px rgb(0, 248, 12);
+}
+.Dang-ki-nhap ul li a:hover{
+    color: #e84118;
 }
 div.nghe-j div img{
     width: 200px;
@@ -217,13 +271,14 @@ div.bai-hat div b{
     margin-left: 60px;
 }
 .tim-kiem{
+    width: 500px;
     margin: 0;
     padding: 0;
 }
 .buscar-caja {
     position: absolute;
     top: 420px;
-    left: 1270px;
+    left: 730px;
     transform: translate(-50%, -50%);
     background: #ffffff;
     height: 40px;
@@ -232,7 +287,7 @@ div.bai-hat div b{
    }
    
    .buscar-caja:hover > .buscar-txt {
-    width: 300px;
+    width: 280px;
     padding: 0px;
    }
    
@@ -275,17 +330,4 @@ div.bai-hat div b{
     width: 0px;
     font-weight: bold;
    }
-.menu-con{
-   position: absolute;
-   right: 1000px;
-    display: none;    
-}
-.menu ul li:hover .menu-con{
-    display: block;
-    border: 1px solid rgb(130, 171, 199);
-    background-color: rgb(240, 143, 227);
-    width: 250px;
-    padding: 15px;
-    list-style: none;
-    
-}
+
