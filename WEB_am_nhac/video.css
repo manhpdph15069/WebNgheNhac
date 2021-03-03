@@ -1,0 +1,30 @@
+div.chia-cot{
+    display: flex;
+
+}
+div.video{
+    width: 100%;
+    text-align: center;
+}
+div h4{
+    margin-left: 5px;
+    font-size: 20px;
+    margin-top: 10px;
+}
+.khung{
+    width: 800px;
+    height: 100%;
+    margin: 30px;
+}
+video{
+    margin-left: 35px;
+}
+h2{
+    color: aqua;
+    text-align: center;
+    font-size: 50px;
+}
+.fb-comments{
+    right: 350px;
+    
+}

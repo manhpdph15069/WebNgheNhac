@@ -1,0 +1,48 @@
+*{
+	margin: 0;
+	padding: 2,5px;
+	box-sizing: border-box;
+}
+body{
+    width: 100%;
+    text-align: center;
+    margin: 0px;padding: 0px;
+    background-color: rgb(255, 255, 255);
+    margin: 0;
+    background-color: #ffffff;
+    color: #333;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 13px;
+    font-family: 'Times New Roman', Times, serif;
+}   
+h1{
+    font-family: unset;
+    font-size: 40px;
+    color: aqua;
+}
+div.khung{
+
+        font-family: "Poppins", sans-serif;
+       
+        background: linear-gradient(to right top, #f0f0f0, #ffffff);
+        display: flex;
+        align-items: center;
+} 
+.khung ul li{
+    display: inline;
+    float: left;
+    margin: 0 30px 20px 0;
+    padding: 10px;
+    padding-top: 50px;
+}
+img{
+    width: 200px;
+    height: 200px;
+    
+}
+audio{
+background-color: aqua;
+}
+
+

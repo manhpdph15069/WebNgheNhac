@@ -1,0 +1,291 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    margin: 0px;padding: 0px;
+    background-color: rgb(244, 247, 250);
+}
+iframe[name=page]{
+    width: 100%;
+    min-height: 400px;
+}
+div.khung{
+    margin: auto;
+    box-shadow: 0 0 10px red;
+    width: 1200px;
+}
+header{
+    width: 100%;
+    height: 400px;
+    background-image: url(anh/Banner-nhac.jpg);
+    background-size: cover;
+}
+nav.menu{
+    width: 100%;
+    height: 40px;
+    background-color: rgb(255, 131, 234);
+    font-variant: small-caps;
+    font-size: 25px;
+}
+article.noi_dung{
+    width: 900px;
+    height: 100%;
+    background-color: white;
+    float: left;
+}
+aside{
+    width: 300px;
+    height: 910px;
+    background-color: rgb(231, 241, 185);
+    float: left;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+footer{
+    width: 100%;
+    height: 200px;
+    clear: both;
+    background-color: orange;
+    text-align: center;
+    padding-top: 40px;
+}
+ul.ngang{
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+ul.ngang>li{
+    display: inline-block;
+    padding: 5px 10px 9px 10px;
+    margin: 0px 10px 0px 10px;
+}ul.ngang li a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    text-shadow: 0 0 5px rgb(0, 248, 12);
+}
+ul.ngang li a:hover{
+    color: red;
+}
+div.nghe-j div img{
+    width: 200px;
+    margin: 10px;
+    height: 90px;
+}
+h3{
+    color: brown;
+    font-size: 30px;
+    margin-left: 20px;
+}
+div.nghe-j{
+    border: 1px solid red;
+    height: 200px;
+    padding-top: 20px;
+    text-align: center;
+}
+div.nghe-j b {
+    margin-left: 10px;
+    margin-right: 30px;
+}
+div.chia-cot{
+    display: flex;
+}
+.slide .carousel-indicators{
+    display: none;
+}
+.noi_dung h2{
+    color: #2daaed;
+    text-transform: uppercase;
+    padding: 0 20px 0 0;
+    font-weight: 300px ;
+}
+.slide img{
+    width: 900px;
+}
+.v-menu{
+    margin-top: 5px;
+    padding: 0px;
+    margin-left: 5px;
+    list-style: none;
+    border-radius: 5px;
+    width: 290px;
+    box-shadow: 0px 0px 10px rgb(212, 200, 200);
+}
+.v-menu a{
+    background-image: url('https://raw.githubusercontent.com/sonmobi/PT16353-MOB-WEB1013/master/bh9/menu/ic_arr.png');
+    background-repeat: no-repeat;
+    background-position-y: center;
+    background-size: 10px;
+    display: block;
+    border-bottom: 1px dotted orangered;
+    color: orangered;
+    font-variant: small-caps;
+    font-size: large;
+    text-decoration: none;
+    padding: 8px 5px 8px 30px;
+}
+.v-menu a:hover{
+    background-image: url('https://raw.githubusercontent.com/sonmobi/PT16353-MOB-WEB1013/master/bh9/menu/ic_arr.png');
+    background-repeat: no-repeat;
+    background-position-y: center;
+    background-size: 10px;
+    border-bottom: 1px dotted white;
+    background-color: orangered;
+    color: white;
+    font-weight: bold;
+}
+.v-menu-game{
+    margin-top: 5px;
+    padding: 0px;
+    margin-left: 5px;
+    list-style: none;
+    border-radius: 5px;
+    width: 290px;
+    box-shadow: 0px 0px 10px rgb(220, 220, 248);
+
+
+}
+.v-menu-game a{
+    background-image: url('https://raw.githubusercontent.com/sonmobi/PT16353-MOB-WEB1013/master/bh9/menu/ic_arr.png');
+    background-repeat: no-repeat;
+    background-position-y: center;
+    background-size: 10px;
+    display: block;
+    border-bottom: 1px dotted rgb(231, 221, 217);
+    color: rgb(90, 235, 23);
+    font-variant: small-caps;
+    font-size: large;
+    text-decoration: none;
+    padding: 8px 5px 8px 30px;
+    margin-bottom: 11px;
+}
+.v-menu-game a:hover{
+    background-image: url('https://raw.githubusercontent.com/sonmobi/PT16353-MOB-WEB1013/master/bh9/menu/ic_arr.png');
+    background-repeat: no-repeat;
+    background-position-y: center;
+    background-size: 10px;
+    border-bottom: 1px dotted white;
+    background-color: orangered;
+    color: white;
+    font-weight: bold;
+}
+footer h2{
+    font-family: Arial;
+    font-size: 30px;
+    color: rgb(4, 0, 253);
+}
+div.footer ul{
+    list-style-type: none;
+}
+div video{
+    margin-left: 60px;
+    margin-top: 20px;
+}
+div.video{
+    width: 100%;
+    border: 1px solid blue;
+    text-align: center;
+}
+div h4{
+    margin-left: 65px;
+    font-size: 20px;
+    margin-top: 10px;
+}
+.bai-hat{
+    border: 1px solid rgb(110, 110, 19);
+    border-radius: 0 40px 0 40px;
+    box-shadow: 0 0 10px red;
+}
+div.bai-hat div img{
+width: 100px;
+height: 100px;
+margin-left: 20px;
+margin-top: 10px;
+margin-bottom: 10px;
+}
+div.bai-hat div audio{
+    margin-top: 10px;
+    width: 300px;
+    height: 30px;
+}
+div.chia-cot.bai-hat div.chia-cot{
+    width: 50%;
+}
+div.bai-hat div b{
+    margin-top: 15px;
+    margin-left: 60px;
+}
+.tim-kiem{
+    margin: 0;
+    padding: 0;
+}
+.buscar-caja {
+    position: absolute;
+    top: 420px;
+    left: 1270px;
+    transform: translate(-50%, -50%);
+    background: #ffffff;
+    height: 40px;
+    border-radius: 40px;
+    padding: 2px;
+   }
+   
+   .buscar-caja:hover > .buscar-txt {
+    width: 300px;
+    padding: 0px;
+   }
+   
+   .buscar-caja:hover > .buscar-btn {
+    background: white;
+    color: black;
+   }
+   
+   .buscar-btn {
+    color: #e84118;
+    float: right;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    background: #0952f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.4s;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    margin: 0px;
+   }
+   
+    i {
+    font-size: 15px;
+    color: rgb(214, 16, 16);
+   }
+   
+   .buscar-txt {
+    border: none;
+    background: none;
+    outline: none;
+    float: left;
+    padding: 0;
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    transition: 0.4s;
+    line-height: 40px;
+    width: 0px;
+    font-weight: bold;
+   }
+.menu-con{
+   position: absolute;
+   right: 1000px;
+    display: none;    
+}
+.menu ul li:hover .menu-con{
+    display: block;
+    border: 1px solid rgb(130, 171, 199);
+    background-color: rgb(240, 143, 227);
+    width: 250px;
+    padding: 15px;
+    list-style: none;
+    
+}
